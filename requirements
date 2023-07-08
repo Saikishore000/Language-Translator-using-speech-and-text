@@ -1,8 +1,8 @@
 python
-speech_recognition
+SpeechRecognition
 deep_translator
-gtts
+gTTs
 playsound
 os-sys
-streamlit
-datetime
+stream-python
+DateTime
