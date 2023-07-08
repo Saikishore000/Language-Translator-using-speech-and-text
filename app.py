@@ -1,6 +1,6 @@
 #Importing required libraries for Speech recognition and translation
 
-import speech_recognition
+import speech_recognition as sr
 #The above module is used for speech recognition
 
 from deep_translator import GoogleTranslator
@@ -18,7 +18,6 @@ import streamlit as st
 import datetime as dt
 
 #Creating the object for class
-sr = speech_recognition()
 r = sr.Recognizer()
 trans = GoogleTranslator()
 
